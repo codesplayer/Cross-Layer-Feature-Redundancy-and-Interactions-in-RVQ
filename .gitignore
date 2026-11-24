@@ -1,0 +1,17 @@
+# Local audio. The utterance index is data/manifest.jsonl.
+data/mix_1500/
+data/fleurs_wm_n20/
+
+# Local runs and environments
+result_smoke/
+.deps/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+*.key
+credentials.json
